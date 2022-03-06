@@ -1,18 +1,8 @@
 # bnetlauncher
 
-Launcher utility to help start battle.net games with the steam overlay.
+Launcher utility to help start battle.net games with the steam overlay; Relaunched by Atlas Industries.
 
-Official page http://madalien.com/stuff/bnetlauncher/
-
-## ❗❗ **Project Status** ❗❗
-
-It's now been years since I last played a blizzard game so this project has been put into "maintenance" as
-I'm no longer a user of it.
-
-Contributions are still accepted (new games, features, etc) but other then those no further developments
-will be made.
-
-There still other launcher project in active development like [Launchpad](https://github.com/VolantisDev/Launchpad) in case bnetlauncher no longer works for you.
+Official page - https://www.atlasindustries.info/wiki/Bnetlauncher
 
 ## Purpose
 
@@ -38,16 +28,16 @@ with minimal/no interaction with the battle.net client while still being automat
 |codmw2019      | Call of Duty: Modern Warfare (2019)                   |
 |codmw2crm      | Call of Duty: Modern Warfare 2 Campaign Remastered    |
 |cb4            | Crash Bandicoot 4: It's About Time                    |
-|d2r            | Diablo 2: Resurrected                                 |
-|d3             | Diablo 3                                              |
-|d3ptr          | Diablo 3 Public Test Realm                            |
+|d2r            | Diablo II: Resurrected                                |
+|d3             | Diablo III                                            |
+|d3ptr          | Diablo III Public Test Realm                          |
 |hs             | Heartstone                                            |
 |hots           | Heroes of the Storm                                   |
 |ow             | Overwatch                                             |
 |owptr          | Overwatch Public Test Realm                           |
-|scr            | Starcraft Remastered                                  |
-|sc2            | Starcraft 2                                           |
-|w3             | Warcraft 3: Reforged                                  |
+|scr            | StarCraft Remastered                                  |
+|sc2            | StarCraft II                                          |
+|w3             | Warcraft III: Reforged                                |
 |wow            | World of Warcraft                                     |
 |wowclassic     | World of Warcraft Classic                             |
 |wowptr         | World of Warcraft Public Test Realm                   |
@@ -63,8 +53,8 @@ not running bnetlauncher will close it, if it's running it will leave it running
 
 ## Public Test Realm and World of Warcraft Classic
 
-With the release of the the new client in 2021 the previous methods to launch PTR and Classic version no longer work.
-This version includes experimental fix for the issue that may not always work. If game doesn't launch automaticall
+With the release of the new client in 2021, the previous methods to launch PTR and Classic versions no longer work.
+This version includes an experimental fix for the issue that may not always work. If the game doesn't launch automatically,
 manual interaction to press the play button will be required.
 
 ## Troubleshooting
@@ -166,10 +156,11 @@ Explaining what each part does:
 
 ## Contributors
 
+* dafzor, for the original work on bnetlauncher
 * internet coder Maruf for ghost tray icon fix code
 * github Ethan-BB for the new parameters to launch games on battle.net
-* github RobFreiburger and iMintty for Starcraft Remastered and Destiny 2 support respectively.
+* github RobFreiburger and iMintty for StarCraft Remastered and Destiny 2 support respectively.
 * /u/fivetwofoureight for creating and allowing me to use his icon.
 * /u/malecden, Maverick, /u/sumphatguy and others for their help pointing out bugs.
 * github jbzdarkid for fixing some typos in the documentation.
-* github jacobmix for crash bandicoot 4 addition
+* github jacobmix for Crash Bandicoot 4 addition
