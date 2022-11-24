@@ -27,6 +27,7 @@ with minimal/no interaction with the battle.net client while still being automat
 |codbocw        | Call of Duty: Black Ops Cold War                      |
 |codmw2019      | Call of Duty: Modern Warfare (2019)                   |
 |codmw2crm      | Call of Duty: Modern Warfare 2 Campaign Remastered    |
+|codmw2         | Call of Duty: Modern Warfare 2 + Warzone 2            |
 |cb4            | Crash Bandicoot 4: It's About Time                    |
 |d2r            | Diablo II: Resurrected                                |
 |d3             | Diablo III                                            |
@@ -142,8 +143,7 @@ Explaining what each part does:
   case sensitive! With battlenet2 it's the game's productCode. Those values can be discovered by looking at logs in different locations:
   * for battlenet `'%LOCALAPPDATA%\Battle.net\Logs\battle.net*.log'`
   * for battlenet2 `'C:\ProgramData\Battle.net\Setup\<game>\*.log'`
-  In the case of epic, just create a desktop shortcut and extract the id from the properties, it will be something like:
-  * `com.epicgames.launcher://apps/<id will be here>?action=launch&silent=true`
+  * for epic, create a desktop shortcut (on launcher manage on tree dot menu then create shortcut) and extract the id from the URL field in the created shortcut properties, it will be something like: `com.epicgames.launcher://apps/<id will be here>?action=launch&silent=true`
 * `exe=BlackOps4.exe` game exe that bnetlauncher will look for after launch, can use `%` as a wildcard ie `Diablo III%.exe`
     to support 32 and 64 bit builds of the game.
 * `options=noargs,waitforexit` list of comma separated options, currently supported:
@@ -165,3 +165,5 @@ Explaining what each part does:
 * /u/malecden, Maverick, /u/sumphatguy and others for their help pointing out bugs.
 * github jbzdarkid for fixing some typos in the documentation.
 * github jacobmix for crash bandicoot 4 addition
+* github KyleStilkey for Diablo Immortal support
+* github d3rt0xx for MW2 & WZ2.0 support
