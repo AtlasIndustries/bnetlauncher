@@ -31,6 +31,7 @@ with minimal/no interaction with the battle.net client while still being automat
 |d2r            | Diablo II: Resurrected                                |
 |d3             | Diablo III                                            |
 |d3ptr          | Diablo III Public Test Realm                          |
+|di             | Diablo Immortal                                       |
 |hs             | Heartstone                                            |
 |hots           | Heroes of the Storm                                   |
 |ow             | Overwatch                                             |
@@ -124,12 +125,12 @@ However it is possible to create a new entry using a different name to use custo
 Example entry:
 
 ```
-    [codbo4]
-    name=Call of Duty: Black Ops 4
-    client=battlenet
-    cmd=VIPR
-    exe=BlackOps4.exe
-    options=noargs,waitforexit
+  [codbo4]
+  name=Call of Duty: Black Ops 4
+  client=battlenet
+  cmd=VIPR
+  exe=BlackOps4.exe
+  options=noargs,waitforexit
 ```
 Explaining what each part does:
 
@@ -163,4 +164,4 @@ Explaining what each part does:
 * /u/fivetwofoureight for creating and allowing me to use his icon.
 * /u/malecden, Maverick, /u/sumphatguy and others for their help pointing out bugs.
 * github jbzdarkid for fixing some typos in the documentation.
-* github jacobmix for Crash Bandicoot 4 addition
+* github jacobmix for crash bandicoot 4 addition
